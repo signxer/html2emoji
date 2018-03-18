@@ -7,7 +7,7 @@ Convert HTML escape sequence to emoji with explanation (Chinese/English).
 
 [emoji](https://pypi.python.org/pypi/emoji/)
 
-Steup:
+## Setup:
 
     pip install emoji
     
