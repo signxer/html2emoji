@@ -14,7 +14,6 @@ Steup:
 # Usage
     import html2emoji
     emj = html2emoji.html('&#xd83c;&#xdf82;')
-
     print(emj.show)
 '🎂'
     
