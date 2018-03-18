@@ -5,6 +5,8 @@ Convert HTML escape sequence to emoji with explanation (Chinese/English).
 
 适用于NLP分析等场景
 
+其中中文词典来自[apple-emoji-dict](https://github.com/dofy/apple-emoji-dict)
+
 # Requirement
 
 [emoji](https://pypi.python.org/pypi/emoji/)
