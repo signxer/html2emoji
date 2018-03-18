@@ -12,17 +12,17 @@ Steup:
     pip install emoji
     
 # Usage
-    >>> import html2emoji
-    >>> emj = html2emoji.html('&# xd83c;&# xdf82;')
+    import html2emoji
+    emj = html2emoji.html('&# xd83c;&# xdf82;')
     
-    >>> print(emj.show)
-    '🎂'
+    print(emj.show)
+'🎂'
     
-    >>> print(emj.meanc)
-    ['庆祝', '生日', '蛋糕', '慶祝', '生日蛋糕']
+    print(emj.meanc)
+['庆祝', '生日', '蛋糕', '慶祝', '生日蛋糕']
     
-    >>> print(emj.meanc[0])
-    '庆祝'
+    print(emj.meanc[0])
+'庆祝'
     
-    >>> print(emj.meane)
-    'birthday_cake'
+    print(emj.meane)
+'birthday_cake'
